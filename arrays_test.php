@@ -37,7 +37,6 @@ $colors = array();
 # Get All Available keys
 ################
 $indexs = array();
-// My code start here
 foreach ($Arrays as $array) {
 	$indexs = array_unique( array_merge($indexs,array_keys($array)) );
 }
